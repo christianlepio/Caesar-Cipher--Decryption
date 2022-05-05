@@ -10,6 +10,7 @@ int main()
 	cout << "Enter a ciphertext: ";
 	getline(cin , text);
 	cout<<"\n Enter your desire number key: ";
+	cin>>numkey;
 	
 	for(int count = 0; count < text.length() ; count++)
 	{
