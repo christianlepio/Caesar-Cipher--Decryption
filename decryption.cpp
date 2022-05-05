@@ -16,7 +16,7 @@ int main()
 	{
 		if(isalpha(text[count]))
 		{
-			for(int i = 1 ; i <= 3 ; i++)
+			for(int i = 1 ; i <= numkey ; i++)
 			{
 				if(text[count] == 'a')
 					text[count] = 'z';
