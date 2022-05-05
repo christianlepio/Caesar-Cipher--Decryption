@@ -5,6 +5,7 @@ int main()
 {
 	//Decryption
 	string text;
+	int numkey=0;
 	
 	cout << "Enter a ciphertext: ";
 	getline(cin , text);
