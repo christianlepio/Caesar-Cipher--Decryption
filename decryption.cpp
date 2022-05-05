@@ -6,9 +6,10 @@ int main()
 	//Decryption
 	string text;
 	int numkey=0;
-	
+
 	cout << "Enter a ciphertext: ";
 	getline(cin , text);
+	cout<<"\n Enter your desire number key: ";
 	
 	for(int count = 0; count < text.length() ; count++)
 	{
